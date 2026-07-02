@@ -26,30 +26,7 @@ A web-based Library Management System built using Flask, MySQL, HTML, and CSS. T
 - HTML5
 - CSS3
 - JavaScript
-
-📂 Project Structure
-
-LibraryManagementSystem/
-│
-├── app.py
-├── database.py
-├── README.md
-│
-├── templates/
-│   ├── index.html
-│   ├── login.html
-│   ├── register.html
-│   ├── dashboard.html
-│   ├── add_book.html
-│   ├── view_books.html
-│   ├── update_book.html
-│   ├── search_book.html
-│   ├── search_result.html
-│   ├── book_not_found.html
-│   └── books_not_available.html
-│
-└── static/
-    └── style.css
+  
 
 🗄️ Database Tables
 
