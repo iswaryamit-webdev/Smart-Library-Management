@@ -1,2 +1,102 @@
-# Smart-Library-Management
-Developed a full-stack Library Management System using Flask, MySQL, HTML, and CSS. The application supports user registration/login, book inventory management, issue and return tracking, title and author-based search, dashboard analytics, and an intuitive user interface designed for efficient library operations.
+📚 Smart Digital Library Management System
+
+A web-based Library Management System built using Flask, MySQL, HTML, and CSS. The application helps manage library operations efficiently by providing book inventory management, user authentication, book search, issue/return functionality, and dashboard analytics.
+
+🚀 Features
+
+- User Registration and Login
+- Session Management
+- Dashboard with Library Statistics
+- Add New Books
+- View Available Books
+- Update Book Details
+- Delete Books
+- Search Books by Title
+- Search Books by Author
+- Issue Books
+- Return Books
+- Book Availability Check
+- Responsive and User-Friendly Interface
+
+🛠️ Technologies Used
+
+- Python
+- Flask
+- MySQL
+- HTML5
+- CSS3
+- JavaScript
+
+📂 Project Structure
+
+LibraryManagementSystem/
+│
+├── app.py
+├── database.py
+├── README.md
+│
+├── templates/
+│   ├── index.html
+│   ├── login.html
+│   ├── register.html
+│   ├── dashboard.html
+│   ├── add_book.html
+│   ├── view_books.html
+│   ├── update_book.html
+│   ├── search_book.html
+│   ├── search_result.html
+│   ├── book_not_found.html
+│   └── books_not_available.html
+│
+└── static/
+    └── style.css
+
+🗄️ Database Tables
+
+Students
+
+- Student ID
+- Name
+- Email
+- Department
+- Password
+
+Books
+
+- Book ID
+- Title
+- Author
+- Quantity
+
+▶️ How to Run
+
+1. Clone the repository.
+2. Create the MySQL database and required tables.
+3. Update database credentials in "app.py" or "database.py".
+4. Install dependencies:
+
+pip install flask mysql-connector-python
+
+5. Run the application:
+
+python app.py
+
+6. Open:
+
+http://127.0.0.1:5000
+
+🎯 Learning Outcomes
+
+This project demonstrates:
+
+- CRUD Operations
+- Database Connectivity
+- Flask Routing
+- Session Handling
+- Template Rendering
+- Frontend Styling
+- Full-Stack Web Development Fundamentals
+
+Author
+
+Developed by Iswarya as a Full-Stack Web Development Learning Project.
