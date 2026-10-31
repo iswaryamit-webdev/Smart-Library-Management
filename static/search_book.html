@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Search Book</title>
+
+    <style>
+
+        body{
+            margin:0;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+            background:#121212;
+            font-family:Arial, sans-serif;
+        }
+
+        .container{
+            background:#1e1e1e;
+            padding:35px;
+            border-radius:15px;
+            width:350px;
+            text-align:center;
+            box-shadow:0 0 20px rgba(255,255,255,0.1);
+        }
+
+        h1{
+            color:#00e5ff;
+            margin-bottom:25px;
+        }
+
+        input{
+            width:100%;
+            padding:10px;
+            border:none;
+            border-radius:8px;
+            box-sizing:border-box;
+            font-size:15px;
+        }
+
+        button{
+            width:100%;
+            padding:12px;
+            margin-top:20px;
+            border:none;
+            border-radius:8px;
+            background:#00e5ff;
+            color:black;
+            font-size:16px;
+            font-weight:bold;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#00bcd4;
+        }
+
+        a{
+            display:block;
+            margin-top:15px;
+            color:#00e5ff;
+            text-decoration:none;
+            font-weight:bold;
+        }
+
+        a:hover{
+            text-decoration:underline;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🔍 Search Book</h1>
+
+        <form method="POST">
+
+    <label>Search Type</label>
+
+    <select name="search_type">
+
+        <option value="title">
+            Book Title
+        </option>
+
+        <option value="author">
+            Author
+        </option>
+
+    </select>
+
+    <br><br>
+
+    <input
+        type="text"
+        name="keyword"
+        placeholder="Enter Search Text"
+        required
+    >
+
+    <br><br>
+
+    <button type="submit">
+        Search
+    </button>
+
+</form>
+        <a href="/dashboard">🏠 Back to Dashboard</a>
+
+    </div>
+
+</body>
+
+</html>

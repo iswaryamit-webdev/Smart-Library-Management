@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Book Found</title>
+
+    <style>
+
+        body{
+            margin:0;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+            background:#121212;
+            font-family:Arial, sans-serif;
+        }
+
+        .container{
+            background:#1e1e1e;
+            padding:35px;
+            border-radius:15px;
+            width:400px;
+            text-align:center;
+            box-shadow:0 0 20px rgba(255,255,255,0.1);
+        }
+
+        h1{
+            color:#00e5ff;
+            margin-bottom:25px;
+        }
+
+        .book-info{
+            background:#2a2a2a;
+            padding:15px;
+            border-radius:10px;
+            margin-bottom:20px;
+            text-align:left;
+        }
+
+        .book-info p{
+            color:white;
+            font-size:18px;
+            margin:10px 0;
+        }
+
+        span{
+            color:#00e5ff;
+            font-weight:bold;
+        }
+
+        a{
+            display:inline-block;
+            padding:12px 20px;
+            background:#00e5ff;
+            color:black;
+            text-decoration:none;
+            border-radius:8px;
+            font-weight:bold;
+        }
+
+        a:hover{
+            background:#00bcd4;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>📚 Book Found!</h1>
+
+        <div class="book-info">
+
+            <p><span>Title:</span> {{ book[1] }}</p>
+
+            <p><span>Author:</span> {{ book[2] }}</p>
+
+            <p><span>Quantity:</span> {{ book[3] }}</p>
+
+        </div>
+
+        <a href="/search_book">🔍 Search Again</a>
+
+    </div>
+
+</body>
+
+</html>
