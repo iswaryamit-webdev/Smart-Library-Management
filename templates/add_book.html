@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Book</title>
+
+    <style>
+
+        body{
+            margin:0;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            height:100vh;
+            background:#121212;
+            font-family:Arial, sans-serif;
+        }
+
+        .container{
+            background:#1e1e1e;
+            padding:30px;
+            border-radius:15px;
+            width:350px;
+            box-shadow:0px 0px 20px rgba(255,255,255,0.1);
+            text-align:center;
+        }
+
+        h1{
+            color:#00e5ff;
+            margin-bottom:20px;
+        }
+
+        label{
+            display:block;
+            text-align:left;
+            color:white;
+            margin-top:12px;
+            margin-bottom:5px;
+        }
+
+        input{
+            width:100%;
+            padding:10px;
+            border:none;
+            border-radius:8px;
+            box-sizing:border-box;
+            font-size:15px;
+        }
+
+        button{
+            width:100%;
+            padding:12px;
+            margin-top:20px;
+            border:none;
+            border-radius:8px;
+            background:#00e5ff;
+            color:black;
+            font-size:16px;
+            font-weight:bold;
+            cursor:pointer;
+        }
+
+        button:hover{
+            background:#00bcd4;
+        }
+
+        a{
+            display:block;
+            margin-top:15px;
+            color:#00e5ff;
+            text-decoration:none;
+            font-weight:bold;
+        }
+
+        a:hover{
+            text-decoration:underline;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>📚 Add Book</h1>
+
+        <form method="POST">
+
+            <label>Book Title</label>
+            <input type="text" name="title" required>
+
+            <label>Author</label>
+            <input type="text" name="author" required>
+
+            <label>Quantity</label>
+            <input type="number" name="quantity" required>
+
+            <button type="submit">➕ Add Book</button>
+
+        </form>
+
+        <a href="/dashboard">🏠 Back to Dashboard</a>
+
+    </div>
+
+</body>
+</html>

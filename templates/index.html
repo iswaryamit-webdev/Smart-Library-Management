@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Digital Library</title>
+
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            background:linear-gradient(135deg,#0f172a,#1e293b);
+        }
+
+        .container{
+            background:white;
+            padding:40px;
+            border-radius:20px;
+            width:450px;
+            text-align:center;
+            box-shadow:0 10px 25px rgba(0,0,0,0.3);
+        }
+
+        h1{
+            color:#0f172a;
+            margin-bottom:15px;
+        }
+
+        p{
+            color:#64748b;
+            margin-bottom:30px;
+            font-size:18px;
+        }
+
+        .btn{
+            display:block;
+            text-decoration:none;
+            background:#2563eb;
+            color:white;
+            padding:12px;
+            margin:12px 0;
+            border-radius:10px;
+            font-size:18px;
+            transition:0.3s;
+        }
+
+        .btn:hover{
+            background:#1d4ed8;
+            transform:translateY(-2px);
+        }
+
+        .icon{
+            font-size:60px;
+            margin-bottom:15px;
+        }
+        footer{
+    position:fixed;
+    bottom:10px;
+    width:100%;
+    text-align:center;
+    color:#888;
+    font-size:14px;
+    }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="icon">📚</div>
+
+        <h1>📚Smart Digital Library</h1>
+
+        <p>
+            Manage, Search, Issue and Return Books
+            through a simple Library Management System.
+        </p>
+
+        <a href="/register" class="btn">Register</a>
+
+        <a href="/login" class="btn">Login</a>
+
+    </div>
+    <footer>
+    Smart Digital Library © 2026
+    </footer>
+</body>
+</html>
